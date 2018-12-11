@@ -669,6 +669,167 @@
   .col-lg-offset-0 {
     margin-left: 0; } }
 
-body {
-  background-color: aqua; }
+.nopadding {
+  padding: 0; }
+
+.nopadding-left {
+  padding-left: 0; }
+
+@media screen and (max-width: 991px) {
+  .center, .wrapper {
+    min-width: initial; } }
+
+#landing_entrega_navidad {
+  background-color: #f4f4f4; }
+  #landing_entrega_navidad .cont_get_info .title {
+    margin-top: 55px; }
+    #landing_entrega_navidad .cont_get_info .title img {
+      display: block;
+      margin: 0 auto;
+      padding-bottom: 15px; }
+      @media screen and (max-width: 991px) {
+        #landing_entrega_navidad .cont_get_info .title img {
+          width: 100%; } }
+    #landing_entrega_navidad .cont_get_info .title:after {
+      content: '';
+      display: block;
+      width: 750px;
+      height: 1px;
+      background-color: #e0e0e0;
+      margin: 0 auto; }
+      @media screen and (max-width: 991px) {
+        #landing_entrega_navidad .cont_get_info .title:after {
+          width: 300px; } }
+  #landing_entrega_navidad .cont_get_info .info-day {
+    margin-top: 30px;
+    font-size: 28px;
+    font-family: 'Source Sans Pro';
+    color: #4b4b4b;
+    text-align: center;
+    letter-spacing: 0px; }
+    #landing_entrega_navidad .cont_get_info .info-day .number {
+      font-size: 50px;
+      font-weight: bold;
+      margin-top: -18px; }
+    @media screen and (max-width: 991px) {
+      #landing_entrega_navidad .cont_get_info .info-day {
+        font-size: 17px; }
+        #landing_entrega_navidad .cont_get_info .info-day .number {
+          font-size: 30px;
+          margin-top: -12px; } }
+  #landing_entrega_navidad .cont_get_info .cont-input {
+    margin: 40px 0;
+    position: relative; }
+    #landing_entrega_navidad .cont_get_info .cont-input input {
+      width: 100%;
+      border: solid #b5b5b5 1px;
+      border-radius: 20px;
+      text-align: center;
+      color: #acacac;
+      font-style: italic;
+      padding: 5px 0;
+      font-size: 20px; }
+      #landing_entrega_navidad .cont_get_info .cont-input input::placeholder {
+        color: #acacac; }
+    #landing_entrega_navidad .cont_get_info .cont-input a {
+      background-color: #62b928;
+      color: #fff;
+      font-size: 20px;
+      font-weight: bold;
+      width: 230px;
+      float: right;
+      padding: 6px 0;
+      border-radius: 5px;
+      text-align: center;
+      position: relative;
+      -webkit-box-shadow: 0px 8px 10px 0px rgba(179, 179, 179, 0.58);
+      -moz-box-shadow: 0px 8px 10px 0px rgba(179, 179, 179, 0.58);
+      box-shadow: 0px 8px 10px 0px rgba(179, 179, 179, 0.58); }
+      #landing_entrega_navidad .cont_get_info .cont-input a span {
+        position: absolute;
+        right: -30px;
+        top: -20px; }
+        #landing_entrega_navidad .cont_get_info .cont-input a span img {
+          width: 80px; }
+      @media screen and (max-width: 991px) {
+        #landing_entrega_navidad .cont_get_info .cont-input a {
+          float: initial;
+          margin: 30px auto 0; } }
+      @media screen and (max-width: 1522px) and (min-width: 1286px) {
+        #landing_entrega_navidad .cont_get_info .cont-input a {
+          margin-right: -30px; } }
+    @media screen and (max-width: 991px) {
+      #landing_entrega_navidad .cont_get_info .cont-input {
+        margin-bottom: 20px; } }
+  #landing_entrega_navidad .cont_get_info .line {
+    margin-top: 30px;
+    width: 600px;
+    height: 1px;
+    background-color: #e0e0e0;
+    margin: 0 auto;
+    margin-bottom: 50px; }
+    @media screen and (max-width: 991px) {
+      #landing_entrega_navidad .cont_get_info .line {
+        margin-bottom: 20px;
+        width: 300px; } }
+  #landing_entrega_navidad .cont_set_info img {
+    width: 100%; }
+  #landing_entrega_navidad .cont_set_info .red-box {
+    background-image: url(navidad-bg-red.png);
+    background-size: 100%; }
+    #landing_entrega_navidad .cont_set_info .red-box img {
+      width: 220px;
+      display: block;
+      margin: 80px auto 20px; }
+      @media screen and (max-width: 991px) {
+        #landing_entrega_navidad .cont_set_info .red-box img {
+          margin-top: 30px; } }
+      @media screen and (max-width: 1285px) and (min-width: 992px) {
+        #landing_entrega_navidad .cont_set_info .red-box img {
+          width: 150px;
+          margin-top: 15px; } }
+      @media screen and (max-width: 1522px) and (min-width: 1286px) {
+        #landing_entrega_navidad .cont_set_info .red-box img {
+          margin-top: 55px; } }
+    #landing_entrega_navidad .cont_set_info .red-box .search-answer {
+      width: 60%;
+      background-color: #fff;
+      margin: 40px auto 0;
+      text-align: center;
+      border-radius: 20px;
+      color: #acacac;
+      padding: 10px 0;
+      font-style: italic; }
+      @media screen and (max-width: 991px) {
+        #landing_entrega_navidad .cont_set_info .red-box .search-answer {
+          margin-top: 25px; } }
+      @media screen and (max-width: 1285px) and (min-width: 992px) {
+        #landing_entrega_navidad .cont_set_info .red-box .search-answer {
+          margin-top: 28px; } }
+    #landing_entrega_navidad .cont_set_info .red-box .legal-answer {
+      text-align: center;
+      color: #fff;
+      font-style: italic;
+      font-weight: 100;
+      font-size: 15px;
+      display: block;
+      margin-top: 30px; }
+      @media screen and (max-width: 991px) {
+        #landing_entrega_navidad .cont_set_info .red-box .legal-answer {
+          margin-bottom: 30px; } }
+  #landing_entrega_navidad .cont_set_info .boy-box {
+    padding-right: 25px; }
+    @media screen and (max-width: 991px) {
+      #landing_entrega_navidad .cont_set_info .boy-box img {
+        display: none; } }
+  #landing_entrega_navidad .cont_set_info .tyc {
+    text-align: center;
+    font-size: 15px;
+    color: #464646;
+    /* margin-top: 50px; */
+    width: 70%;
+    margin: 60px auto; }
+    @media screen and (max-width: 991px) {
+      #landing_entrega_navidad .cont_set_info .tyc {
+        width: 100%; } }
 
