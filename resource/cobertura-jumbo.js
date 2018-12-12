@@ -30,7 +30,7 @@ $(document).ready(function(){
       var dayOfWeek = weekday[today.getDay()]; /* Obtiene el dia actual */
       var today_num = today.getDate(); /* Toma el dia del mes*/
       //var today_num = 18;
-      var set_day = " hoy " + dayOfWeek + " " + today_num + " "; /* Crea frase con el dia del mes y el dia de la semana"
+      var set_day = " hoy " + dayOfWeek + " " + today_num + " "; /* Crea frase con el dia del mes y el dia de la semana*/
       $(".current-day").text(set_day); /* Pone la frase en el titulo*/
       $('.city-search-field').keyup(function(){ // Campo de texto para poner el dia
               var searchField = $(this).val().ignore_latin(); // Limpia Caracteres Especiales
