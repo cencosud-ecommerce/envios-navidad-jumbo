@@ -775,7 +775,7 @@
   #landing_entrega_navidad .cont_set_info img {
     width: 100%; }
   #landing_entrega_navidad .cont_set_info .red-box {
-    background-image: url(navidad-bg-red.png);
+    background-image: url("/arquivos/navidad-bg-red.png");
     background-size: 100%; }
     #landing_entrega_navidad .cont_set_info .red-box img {
       width: 220px;
