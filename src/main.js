@@ -574,22 +574,22 @@ $(document).ready(function() {
                     console.log(this.MUNICIPIO.search(regex));
                     if (this.MUNICIPIO.search(regex) != -1 && available) {
                       count++;
-                      if(count == 1 && today_num <= 17  ){
+                      if(count == 1 && today_num <= 18  ){
                         output = 'SI';
                         answer_class= "animated bounce green";
                         legal_answer = "Tu pedido podra ser entregado inclusive el 24 de diciembre*";
-                      }else if(count == 1 && today_num > 17 ){
+                      }else if(count == 1 && today_num > 18 ){
                         output = 'NO';
                         answer_class= "animated wobble red";
                         legal_answer = "Tu pedido podra ser entregado a partir del 26 de diciembre*";
                       }
                     }else if(this.MUNICIPIO.search(regex) != -1 && !available){
                       count++;
-                      if(count == 1 && today_num >= 17 ){
+                      if(count == 1 && today_num > 16 ){
                         output = 'NO';
                         answer_class= "animated wobble red";
                         legal_answer = "Tu pedido podra ser entregado a partir del 26 de diciembre*";
-                      }else if(today_num < 17){
+                      }else if(today_num <= 16){
                         output = 'SI';
                         answer_class= "animated bounce green";
                         legal_answer = "Tu pedido podra ser entregado inclusive el 24 de diciembre*";
