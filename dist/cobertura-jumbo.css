@@ -681,12 +681,15 @@
 
 #landing_entrega_navidad {
   background-color: #f4f4f4; }
+  #landing_entrega_navidad .cont_get_info .cont-new {
+    margin: 80px 0 20px; }
   #landing_entrega_navidad .cont_get_info .title {
-    margin-top: 55px; }
+    margin-top: 55px;
+    background-image: url(navidad-v2-bg-title.png); }
     #landing_entrega_navidad .cont_get_info .title img {
       display: block;
       margin: 0 auto;
-      padding-bottom: 15px; }
+      padding: 50px 0; }
       @media screen and (max-width: 991px) {
         #landing_entrega_navidad .cont_get_info .title img {
           width: 100%; } }
@@ -702,7 +705,7 @@
           width: 300px; } }
   #landing_entrega_navidad .cont_get_info .info-day {
     margin-top: 30px;
-    font-size: 28px;
+    font-size: 27px;
     font-family: 'Source Sans Pro';
     color: #4b4b4b;
     text-align: center;
@@ -721,11 +724,13 @@
     margin: 40px 0;
     position: relative; }
     #landing_entrega_navidad .cont_get_info .cont-input input {
-      width: 100%;
+      width: 80%;
       border: solid #b5b5b5 1px;
       border-radius: 20px;
       text-align: center;
       color: #acacac;
+      margin-right: 30px;
+      float: right;
       font-style: italic;
       padding: 5px 0;
       font-size: 20px; }
@@ -737,7 +742,6 @@
       font-size: 20px;
       font-weight: bold;
       width: 230px;
-      float: right;
       padding: 6px 0;
       border-radius: 5px;
       text-align: center;
@@ -775,12 +779,12 @@
   #landing_entrega_navidad .cont_set_info img {
     width: 100%; }
   #landing_entrega_navidad .cont_set_info .red-box {
-    background-image: url("/arquivos/navidad-bg-red.png");
+    background-image: url(navidad-bg-red.png);
     background-size: 100%; }
     #landing_entrega_navidad .cont_set_info .red-box img {
-      width: 220px;
+      width: 70%;
       display: block;
-      margin: 80px auto 20px; }
+      margin: 25px auto 10px; }
       @media screen and (max-width: 991px) {
         #landing_entrega_navidad .cont_set_info .red-box img {
           margin-top: 30px; } }
@@ -794,9 +798,10 @@
     #landing_entrega_navidad .cont_set_info .red-box .search-answer {
       width: 60%;
       background-color: #fff;
-      margin: 40px auto 0;
+      margin: 20px auto 0;
       text-align: center;
       border-radius: 20px;
+      min-height: 40px;
       color: #acacac;
       padding: 10px 0;
       font-style: italic; }

@@ -7,9 +7,9 @@ import Vue from 'vue';
 $(document).ready(function() {
     //Simple Script to calc heigth of banner div
     if ($(window).width() > 991) {
-        var heightOne = $('.boy-box').height();
+        var heightOne = $('.left').height();
         var heightTwo = parseInt(heightOne);
-        $('.cont_set_info .red-box').height(heightTwo); 
+        $('.right').height(heightTwo); 
     }
     else {
         $('.cont_set_info .red-box').height('auto');
@@ -542,7 +542,7 @@ $(document).ready(function() {
 
     setTimeout(function(){
         var today = new Date(); /* Fecha del Ordenador */
-        var weekday = new Array('Domingo', 'Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado'); /* Array Dias de la Semana */
+        var weekday = new Array('Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'); /* Array Dias de la Semana */
         var dayOfWeek = weekday[today.getDay()]; /* Obtiene el dia actual */
         var today_num = today.getDate(); /* Toma el dia del mes*/
         
