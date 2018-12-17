@@ -547,9 +547,9 @@ $(document).ready(function() {
         var today_num = today.getDate(); /* Toma el dia del mes*/
         
 
-        var set_day = " hoy " + dayOfWeek + " " + today_num + " "; /* Crea frase con el dia del mes y el dia de la semana*/
+        var set_day = " hoy " + dayOfWeek + " <span>" + today_num + "</span> " + " de Diciembre"; /* Crea frase con el dia del mes y el dia de la semana*/
 
-        $(".current-day").text(set_day);
+        $(".current-day").html(set_day);
 
         $('.city-search-field').keyup(function(){ // Campo de texto para poner el dia
             var searchField = $(this).val(); // Limpia Caracteres Especiales
